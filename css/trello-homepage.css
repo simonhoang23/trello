@@ -1,0 +1,114 @@
+/* MOBILE SCREEN SIZE */
+
+/* DEFINE VARIABLES*/
+
+:root {
+  --main__background__colour: #f6cdcc;
+  --main__text__colour: #000;
+  --main__line__height: 1.3;
+  --container__width: 1500px;
+}
+
+body {
+  color: var(--main__text__colour);
+  font-family: "Work Sans", sans-serif;
+  line-height: var(--main__line__height);
+}
+
+/* MOBILE WIDTH SIZE */
+
+section {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.mobile__header__container {
+  margin-bottom: 30px;
+  height: 75px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP --------------------------- DISPLAY: NONE; */
+
+
+
+/* DESKTOP --------------------------- DISPLAY: NONE; */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
+
+@media only screen and (min-width: 775px) {
+  section {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  /* HEADER */
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  /* MOBILE --------------------------- DISPLAY: NONE; */
+
+  
+
+  /* MOBILE --------------------------- DISPLAY: NONE; */
+
+
+
+
+
+
+
+
+}
