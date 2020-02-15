@@ -11,7 +11,7 @@
 
 body {
   color: var(--main__text__colour);
-  font-family: "Work Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   line-height: var(--main__line__height);
 }
 
@@ -24,49 +24,42 @@ section {
 }
 
 .mobile__header__container {
-  margin-bottom: 30px;
-  height: 75px;
+  
+  background-color: #2973c1;
+  height: 80px;
 }
 
+.mobile__header__block {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 17px;
+}
 
+.mobile__header__signup__login__p  {
+  color: #fff;
+  text-decoration: none;
+  font-size: 15px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.mobile__header__signup__button {
+  background-color: #fff;
+  border: none;
+  color: #2973c1;
+  padding: 7px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 17px;
+  font-weight: 700;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
 
 /* DESKTOP --------------------------- DISPLAY: NONE; */
 
-
-
 /* DESKTOP --------------------------- DISPLAY: NONE; */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* DESKTOP SCREEN SIZE - min-width: 720px DESKTOP SIZE STARTS HERE (720PX) */
 
@@ -79,36 +72,7 @@ section {
 
   /* HEADER */
 
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-
   /* MOBILE --------------------------- DISPLAY: NONE; */
 
-  
-
   /* MOBILE --------------------------- DISPLAY: NONE; */
-
-
-
-
-
-
-
-
 }
