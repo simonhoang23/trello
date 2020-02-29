@@ -36,10 +36,16 @@ section {
   padding-top: 17px;
 }
 
+.mobile__header__nav__right {
+  display: flex;
+  align-items: center;
+}
+
 .mobile__header__signup__login__p  {
   color: #fff;
   text-decoration: none;
   font-size: 15px;
+  padding-right: 10px;
 }
 
 .mobile__header__signup__button {
